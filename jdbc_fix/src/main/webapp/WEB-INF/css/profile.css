@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Raleway:wght@200&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    min-width: 1280px;
+    background-color: darkgray;
+}
+
+
+
+.container{
+    background-color: white;
+    display: table;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.d-flex{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.header{
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.dws1  {
+    position: absolute;
+    margin-top: 30px;
+
+    transform: translate(-50%, -50%);
+   }
+.butt {
+    border: 3px solid #218294;
+    font-size: 10px;
+    color: #218294;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+}
+.butt::before,
+.butt::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #218294;
+    top: 0;
+    left: -100%;
+    opacity: .5;
+    transition: .3s;
+    z-index: -1;
+}
+.butt::after {
+    opacity: 1;
+    transition-delay: .2s;
+}
+.butt:hover {
+    color: #fff;
+}
+.butt:hover::before,
+.butt:hover::after {
+    left: 0;
+}
+
+.dws3  {
+    position: absolute;
+    margin-top: 30px;
+    margin-left:  100px;
+    transform: translate(-50%, -50%);
+}
+.butt {
+    border: 3px solid #218294;
+    font-size: 10px;
+    color: #218294;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+}
+.butt::before,
+.butt::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #218294;
+    top: 0;
+    left: -100%;
+    opacity: .5;
+    transition: .3s;
+    z-index: -1;
+}
+.butt::after {
+    opacity: 1;
+    transition-delay: .2s;
+}
+.butt:hover {
+    color: #fff;
+}
+.butt:hover::before,
+.butt:hover::after {
+    left: 0;
+}
+
+.dws4  {
+    position: absolute;
+    margin-top: 30px;
+    margin-left:  200px;
+    transform: translate(-50%, -50%);
+}
+.butt {
+    border: 3px solid #218294;
+    font-size: 10px;
+    color: #218294;
+    text-decoration: none;
+    text-transform: uppercase;
+        width: 100px;
+        height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+}
+.butt::before,
+.butt::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #218294;
+    top: 0;
+    left: -100%;
+    opacity: .5;
+    transition: .3s;
+    z-index: -1;
+}
+.butt::after {
+    opacity: 1;
+    transition-delay: .2s;
+}
+.butt:hover {
+    color: #fff;
+}
+.butt:hover::before,
+.butt:hover::after {
+    left: 0;
+}
+
+.dws5  {
+    position: absolute;
+    margin-top: 30px;
+    margin-left:  300px;
+    transform: translate(-50%, -50%);
+}
+.butt {
+    border: 3px solid #218294;
+    font-size: 10px;
+    color: #218294;
+    text-decoration: none;
+    text-transform: uppercase;
+        width: 100px;
+        height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+}
+.butt::before,
+.butt::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #218294;
+    top: 0;
+    left: -100%;
+    opacity: .5;
+    transition: .3s;
+    z-index: -1;
+}
+.butt::after {
+    opacity: 1;
+    transition-delay: .2s;
+}
+.butt:hover {
+    color: #fff;
+}
+.butt:hover::before,
+.butt:hover::after {
+    left: 0;
+}
+
+.dws5 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left:  300px;
+    transform: translate(-50%, -50%);
+}
+
+.butt {
+    border: 3px solid #218294;
+    font-size: 10px;
+    color: #218294;
+    text-decoration: none;
+    text-transform: uppercase;
+        width: 100px;
+        height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+}
+.butt::before,
+.butt::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #218294;
+    top: 0;
+    left: -100%;
+    opacity: .5;
+    transition: .3s;
+    z-index: -1;
+}
+
+.butt::after {
+    opacity: 1;
+    transition-delay: .2s;
+}
+.butt:hover {
+    color: #fff;
+}
+.butt:hover::before,
+.butt:hover::after {
+    left: 0;
+}
+
+
+header .logo{
+    height: 68px;
+    margin-right: 80px;
+}
+
+header nav .item{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+header nav .item:last-child{
+    margin: 0;
+}
+
+header .profile{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.prof{
+    height: 40px;
+}
+
+header .profile h3{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+header .profile p{
+    font-size: 12px;
+    line-height: 1;
+}
+
+.f-flex{
+    display: flex;
+    margin-top: 40px;
+}
+
+.it{
+    font-size: 16px;
+    margin-right: 20px;
+    color: #BDBDBD;
+}
+
+.silka{
+    display: flex;
+    margin-top: 21px;
+}
+
+
+
+.r-flex{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.naming{
+    text-decoration: none;
+    color: #45adbf;
+}
+.text-top{
+margin-top: -350px;
+}
+
+.text-top button {
+    background-color: #45adbf;
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+    color: white;
+    margin-top: 40px;
+  }
+.polosa{
+    width:1280px;
+    border-top:3px solid #9EC1D4;
+    border-bottom: dotted 3px #9EC1D4;
+    padding-left:10px
+}
+
+
+
+
+
+
+
+.main{
+display: flex;
+}
+.koti{
+
+color: chocolate;
+}
+
+
+  .polosa2{
+    width:1280px;
+    margin-top: 20px;
+    border-top:3px solid #9EC1D4;
+    border-bottom: dotted 3px #9EC1D4;
+    padding-left:10px
+
+}
+
+.foot{
+
+    display: flex;
+    align-items: center;
+
+}
+.container-logo{
+    margin-left: 50px;
+}
+
+.container-svaz{
+    margin-left: 200px;
+}
+
+.logo2{
+    height: 68px;
+    margin-right: 80px;
+}
+
+.sotset1{
+margin-left: 200px;
+
+}
